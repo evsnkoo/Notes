@@ -30,7 +30,7 @@
 		30D83B032D19326A002BECF2 /* Resolver+Exxtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D83B022D19326A002BECF2 /* Resolver+Exxtension.swift */; };
 		30D83B052D1932A3002BECF2 /* Resolver+Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D83B042D1932A3002BECF2 /* Resolver+Services.swift */; };
 		30D83B072D1934C0002BECF2 /* FirebaseNoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D83B062D1934C0002BECF2 /* FirebaseNoteManager.swift */; };
-		30D83B0C2D19543F002BECF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30D83B0B2D19543F002BECF2 /* GoogleService-Info.plist */; };
+		30D83B102D195685002BECF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30D83B0F2D195685002BECF2 /* GoogleService-Info.plist */; };
 		30DA35732D169A4E00346E31 /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA35722D169A4E00346E31 /* NotesApp.swift */; };
 		30DA35752D169A4E00346E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA35742D169A4E00346E31 /* AppDelegate.swift */; };
 		30DA35772D169A4F00346E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DA35762D169A4F00346E31 /* Assets.xcassets */; };
@@ -57,7 +57,7 @@
 		30D83B022D19326A002BECF2 /* Resolver+Exxtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Exxtension.swift"; sourceTree = "<group>"; };
 		30D83B042D1932A3002BECF2 /* Resolver+Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resolver+Services.swift"; sourceTree = "<group>"; };
 		30D83B062D1934C0002BECF2 /* FirebaseNoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNoteManager.swift; sourceTree = "<group>"; };
-		30D83B0B2D19543F002BECF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30D83B0F2D195685002BECF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		30DA356F2D169A4E00346E31 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DA35722D169A4E00346E31 /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
 		30DA35742D169A4E00346E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 			children = (
 				30DA35722D169A4E00346E31 /* NotesApp.swift */,
 				30DA35742D169A4E00346E31 /* AppDelegate.swift */,
-				30D83B0A2D195429002BECF2 /* Firebase */,
+				30D83B0E2D195685002BECF2 /* Firebase */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -190,13 +190,12 @@
 			path = Resolver;
 			sourceTree = "<group>";
 		};
-		30D83B0A2D195429002BECF2 /* Firebase */ = {
+		30D83B0E2D195685002BECF2 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				30D83B0B2D19543F002BECF2 /* GoogleService-Info.plist */,
+				30D83B0F2D195685002BECF2 /* GoogleService-Info.plist */,
 			);
-			name = Firebase;
-			path = ../../../Desktop/Notes/Notes/App/Firebase;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		30DA35662D169A4E00346E31 = {
@@ -300,7 +299,7 @@
 			files = (
 				30D83AF22D16D171002BECF2 /* Localizable.strings in Resources */,
 				30DA35772D169A4F00346E31 /* Assets.xcassets in Resources */,
-				30D83B0C2D19543F002BECF2 /* GoogleService-Info.plist in Resources */,
+				30D83B102D195685002BECF2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
