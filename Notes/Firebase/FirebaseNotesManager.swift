@@ -14,7 +14,7 @@ protocol FirebaseNotesManagerProtocol {
     func observeNotesChanges(completion: @escaping ([Note]) -> Void) -> ListenerRegistration
 }
 
-class FirebaseNotesManager: FirebaseNotesManagerProtocol {
+final class FirebaseNotesManager: FirebaseNotesManagerProtocol {
     private var firebaseDatabase = Firestore.firestore()
     
     func addNote(note: Note) throws -> DocumentReference {

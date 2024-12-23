@@ -17,7 +17,6 @@ final class NoteDetailViewModel: ObservableObject {
     
     private let noteID: String?
     private let coordinator: NoteDetailCoordinator
-    private var firebaseDatabase = Firestore.firestore()
     private var firebaseListener: ListenerRegistration?
     private var subscriptions = Set<AnyCancellable>()
     

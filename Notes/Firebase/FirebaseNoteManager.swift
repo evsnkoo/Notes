@@ -13,7 +13,7 @@ protocol FirebaseNoteManagerProtocol {
     func observeNoteChanges(id: String, completion: @escaping (Note?) -> Void) -> ListenerRegistration
 }
 
-class FirebaseNoteManager: FirebaseNoteManagerProtocol {
+final class FirebaseNoteManager: FirebaseNoteManagerProtocol {
     private var firebaseDatabase = Firestore.firestore()
     
     func updateNote(id: String, text: String, date: Date) {
