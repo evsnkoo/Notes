@@ -1,0 +1,12 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+artifacts/
+*.cer
+*.mobileprovision
+/321Fit.xcodeproj/project.xcworkspace/xcuserdata
+/321Fit.xcodeproj/xcuserdata
